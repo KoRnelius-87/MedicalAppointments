@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "rol": "Doctor",
+      "name": "Luis",
+      "email": "luis@test.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "rol": "Paciente",
+      "name": "Luis",
+      "email": "luis@test.com",
+      "password": "123"
+    },
+    {
+      "email": "retretret",
+      "pasword": "retretretrtret",
+      "name": "retret",
+      "id": 3
+    },
+    {
+      "email": "retretret",
+      "pasword": "retretretrtret",
+      "name": "retret",
+      "id": 4
+    },
+    {
+      "email": "retretret",
+      "pasword": "retretretrtret",
+      "name": "retret",
+      "id": 5
+    },
+    {
+      "email": "retretret",
+      "pasword": "retretretrtret",
+      "name": "retret",
+      "id": 6
+    },
+    {
+      "email": "retretret",
+      "pasword": "retretretrtret",
+      "name": "retret",
+      "id": 7
+    },
+    {
+      "email": "retretret",
+      "pasword": "retretretrtret",
+      "name": "retret",
+      "id": 8
+    },
+    {
+      "email": "Armando@test.com",
+      "pasword": "123",
+      "name": "Armando",
+      "id": 9
+    }
+  ]
+}

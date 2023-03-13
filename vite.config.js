@@ -36,6 +36,6 @@ export default defineConfig({
     ],
   },
   server: {
-    port: 3000,
+    port: 4000, //cambie el 3000 que choca con json-server
   },
 })
