@@ -1,32 +1,42 @@
 <script>
-import FullCalendar from '@fullcalendar/vue3'
-import dayGridPlugin from '@fullcalendar/daygrid'
-import interactionPlugin from '@fullcalendar/interaction'
+import FullCalendar from "@fullcalendar/vue3";
+import dayGridPlugin from "@fullcalendar/daygrid";
+import interactionPlugin from "@fullcalendar/interaction";
 
 export default {
   components: {
-    FullCalendar // make the <FullCalendar> tag available
+    FullCalendar, // make the <FullCalendar> tag available
   },
   data() {
     return {
       calendarOptions: {
-        plugins: [ dayGridPlugin, interactionPlugin ],
-        initialView: 'dayGridMonth',
+        plugins: [dayGridPlugin, interactionPlugin],
+        initialView: "dayGridMonth",
         dateClick: this.handleDateClick,
         events: [
-          { title: 'event 1', date: '2023-04-01' },
-          { title: 'event 2', date: '2023-04-02' }
-        ]
-      }
-    }
+          { title: "event 1", date: "2023-04-01" },
+          { title: "event 2", date: "2023-04-02" },
+        ],
+      },
+    };
   },
   methods: {
-    handleDateClick: function(arg) {
-      alert('date click! ' + arg.dateStr)
-    }
-  }
-}
+    handleDateClick: function (arg) {
+      alert("date click! " + arg.dateStr);
+    },
+  },
+};
 </script>
 <template>
-  <FullCalendar :options="calendarOptions" height="200" />
+
+    <FullCalendar  class="calendario" :options="calendarOptions" />
+
 </template>
+
+<style>
+.calendario {
+
+  width: 66%;
+  display: flex;
+}
+</style>
